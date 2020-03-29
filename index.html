@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/0478c5fbdb.js" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rebeccapurple;">
+        <ul class="navbar-nav">
+        <li class="nav-item active"><a class="nav-link" href="/index.html"><i class="fab fa-youtube"></i></a></li>
+        <li class="nav-item active"><a class="nav-link" href="#about"><i class="fab fa-facebook"></i></a></li>
+        <li class="nav-item active"><a class="nav-link" href="#about"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </nav>
+
+
+    <div id="main-wrapper">
+
+        <section id = 'about-section'>
+            <div id = 'about'>
+    
+                <h1 style="color:rebeccapurple">Fight to live</h1>
+    
+                <p>
+                    Is a song inspired by current events.
+                    It’s a song about overcoming a struggle. About reaching out to others while in isolation. It’s about finding new ways to live our daily lives. It’s about staying connected even though we’re apart. 
+                </br></br>
+                    It’s about doing our part to fight a silent war. To have faith that we can prevail even when circumstances seem to be at their worst.
+                    It’s about the darkest parts of the human condition and believing hope will prevail.
+                    We all need to play our part to fight these battles. And, working together we will win.
+                </br></br>
+                    Musicians and artists alike are invited to participate in this project. #iplayedmypart speaks to our part in this battle and the part each musician and artist is welcome to play in this project.
+                    Let’s all play our part.   
+                </br></br>
+                <b style="color: rebeccapurple;">Together we will win.</b>
+                </p>
+
+                <div>
+                    <span><a class="btn btn-outline-secondary" href="/thisisengineering-raeng-8o8DjEcbXtY-unsplash.jpg" role="button">Download Song</a></span>
+    
+                    
+                 
+                    <button onclick="showForm()" type="button" class="btn btn-outline-secondary" type="submit" name="submit">Upload Your Parts</button>
+                
+                    </div>
+    
+            </div>
+    
+    
+        </section>
+
+    <section>
+        <div id = 'video'>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fjoigF34JFk" 
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        
+        </div>
+
+
+    </section>
+
+    <form id="submit-form" name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          
+        </p>
+        <p>
+          <input type="file" name="myfile">
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+      
+
+    
+</div>
+    <script src="/index.js"></script>
+</body>
+</html>
